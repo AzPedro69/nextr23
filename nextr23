@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografia | NEXT_R23</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: #fff;
+            text-align: center;
+        }
+        .header {
+            background: url('https://source.unsplash.com/1600x900/?music,rapper') center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5em;
+            font-weight: bold;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+            animation: fadeIn 2s ease-in-out;
+        }
+        .content {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        .highlight {
+            color: #f39c12;
+            font-weight: bold;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 15px;
+            color: #fff;
+            text-decoration: none;
+            border: 2px solid #f39c12;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .social-links a:hover {
+            background: #f39c12;
+            color: #000;
+        }
+        .footer {
+            margin-top: 40px;
+            padding: 20px;
+            background: #222;
+            font-size: 14px;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">NEXT_R23</div>
+    <div class="content">
+        <h2>Sobre</h2>
+        <p>Nascido como <span class="highlight">Azevedo Pedro</span> no coração de <span class="highlight">Rangel, Angola</span>, NEXT_R23 não é apenas um rapper, mas uma lenda em construção. Desde pequeno, enfrentou desafios que moldaram sua visão e sua música, transformando cada dificuldade em rimas afiadas e letras marcantes.</p>
+        
+        <h2>História</h2>
+        <p>A jornada de NEXT_R23 começou cedo, quando percebeu que sua voz poderia ser uma arma poderosa. Influenciado pelo rap de rua e pela fusão entre <span class="highlight">inglês e português</span>, criou um estilo único que reflete a realidade das ruas, a luta diária e o desejo de ascensão.</p>
+        
+        <h2>O Rei do Rangel</h2>
+        <p>Enquanto muitos ao seu redor desistiram, <span class="highlight">Azevedo Pedro</span> permaneceu firme, provando que talento, esforço e resiliência podem quebrar qualquer barreira. Seu nome ecoa como símbolo de superação e autenticidade, conquistando cada vez mais espaço no cenário musical.</p>
+        
+        <h2>Ouça Agora</h2>
+        <p>Disponível em todas as plataformas. Siga NEXT_R23 e faça parte do movimento.</p>
+        
+        <div class="social-links">
+            <a href="https://instagram.com/NEXT_R23" target="_blank">Instagram</a>
+            <a href="https://youtube.com/channel/NEXT_R23" target="_blank">YouTube</a>
+            <a href="https://open.spotify.com/artist/NEXT_R23" target="_blank">Spotify</a>
+            <a href="https://music.apple.com/ao/artist/next-r23/1775788591" target="_blank">Apple Music</a>
+            <a href="https://music.amazon.com/artists/B0DWVFQ6HD/next_r23?ref=dm_ff_amazonmusic.3p" target="_blank">Amazon Music</a>
+            <a href="https://music.youtube.com/channel/UCG0O4rhrbHMT3Qd3455sltQ" target="_blank">YouTube Music</a>
+            <a href="https://tidal.com/browse/artist/54302630/u" target="_blank">Tidal</a>
+        </div>
+    </div>
+    <div class="footer">&copy; 2025 NEXT_R23. Todos os direitos reservados.</div>
+</body>
+</html>

@@ -1,2 +1,0 @@
-# nextr23
-Biografia 
